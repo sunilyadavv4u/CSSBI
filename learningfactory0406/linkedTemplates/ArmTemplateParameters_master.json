@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "learningfactory0406"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"LS_adlsGen2Connection_accountKey": {
+			"value": ""
+		},
+		"LS_blobStorageConnection_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://mylearningadlsgen2.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_tenant": {
+			"value": "fc8a023f-32fd-453b-b1ab-19ae79ddba7c"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_servicePrincipalId": {
+			"value": "0ef53138-9611-41a5-8e4f-58184ffd1c11"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://Azurekeyvaults0406.vault.azure.net/"
+		},
+		"AzureKeyVault2_properties_typeProperties_baseUrl": {
+			"value": "https://Azurekeyvaults0406.vault.azure.net/"
+		},
+		"LS_adlsGen2Connection_properties_typeProperties_url": {
+			"value": "https://mylearningadlsgen2.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
