@@ -1,0 +1,22 @@
+{
+	"name": "AzureDataLakeStorage1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://mylearningadlsgen2.dfs.core.windows.net/",
+			"tenant": "fc8a023f-32fd-453b-b1ab-19ae79ddba7c",
+			"servicePrincipalId": "0ef53138-9611-41a5-8e4f-58184ffd1c11",
+			"servicePrincipalCredentialType": "ServicePrincipalKey",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault2",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "adlssource"
+			}
+		}
+	}
+}

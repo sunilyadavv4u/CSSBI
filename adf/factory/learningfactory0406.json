@@ -1,0 +1,9 @@
+{
+	"name": "learningfactory0406",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5ac5a9ea-21dd-4523-b272-da6612d233c8",
+		"tenantId": "fc8a023f-32fd-453b-b1ab-19ae79ddba7c"
+	}
+}

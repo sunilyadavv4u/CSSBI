@@ -1,0 +1,17 @@
+{
+	"name": "trgt_tbl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "metadata",
+			"table": "TelecomAccum"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

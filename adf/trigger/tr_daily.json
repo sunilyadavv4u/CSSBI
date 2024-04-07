@@ -1,0 +1,25 @@
+{
+	"name": "tr_daily",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_copying_data_from_adlsgen2_to_azureSQL",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2024-04-06T16:22:00",
+				"endTime": "2024-04-06T18:46:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
